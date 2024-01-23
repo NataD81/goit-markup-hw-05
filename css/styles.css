@@ -76,6 +76,10 @@ section {
   display: flex;
   gap: 40px;
 }
+.page-link-link {
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .link {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -96,23 +100,12 @@ section {
   content: "";
   position: absolute;
   background-color: #404bbf;
-  width: 0;
+  width: 100%;
   height: 4px;
   left: 0;
   bottom: -1px;
   border-radius: 2px;
 }
-.page-nav .link:hover::after {
-  width: 100%;
-}
-/*
-  transition: 0.3s;
-  
-
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  */
 
 .page-link .link:hover,
 .page-link .link:focus {
@@ -139,6 +132,9 @@ section {
   line-height: 24px;
   letter-spacing: 0.32px;
   display: block;
+}
+.page-contacts-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
@@ -245,6 +241,7 @@ section {
 
 .item {
   width: calc((100% - 72px) / 4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-item .item {
@@ -365,14 +362,13 @@ section {
 
 .portfolio-item-card {
   width: calc((100% - 48px) / 3);
-
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-img {
   position: relative;
   overflow: hidden;
 }
-.overlay-text:hover {
+.portfolio-item .overlay-text:hover {
   transform: translateY(0);
 }
 .overlay-text {
@@ -388,7 +384,7 @@ section {
   height: 100%;
   width: 100%;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(-100%);
+  transform: translateY(100%);
 }
 
 .portfolio-item-card:hover {
@@ -435,6 +431,8 @@ section {
   padding-bottom: 100px;
   padding-left: 0;
   padding-right: 0;
+  display: flex;
+  align-items: baseline;
 }
 .footer-text {
   color: #f4f4fd;
@@ -457,15 +455,11 @@ section {
   margin-bottom: 16px;
 }
 
-.footer-icons {
-  display: flex;
-  align-items: baseline;
-}
 .footer-logo {
   margin-right: 120px;
 }
 .icons-text {
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -480,7 +474,6 @@ section {
 .social-links-footer {
   display: flex;
   gap: 16px;
-  
 }
 .link-icon-footer {
   width: 100%;
@@ -492,7 +485,7 @@ section {
   border-radius: 50%;
 }
 
-.icon{
+.icon {
   fill: #f4f4fd;
 }
 
@@ -500,6 +493,3 @@ section {
 .link-icon-footer:focus {
   background-color: #31d0aa;
 }
-
-
-

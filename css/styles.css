@@ -43,7 +43,7 @@ section {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    background: #fff;
+  background: #fff;
 }
 
 .page-nav {
@@ -77,7 +77,6 @@ section {
 .page-link-link {
   color: #404bbf;
   position: relative;
-
 }
 .link {
   display: flex;
@@ -91,7 +90,6 @@ section {
   text-decoration: none;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 .link:hover,
 .link:focus,
@@ -110,7 +108,7 @@ section {
   border-radius: 2px;
   display: block;
 }
-.link:hover::after{
+.link:hover::after {
   background-color: #404bbf;
 }
 
@@ -136,7 +134,6 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
@@ -146,8 +143,10 @@ section {
   padding: 188px 0;
 }
 
-.main-hero {
+.card {
   max-width: 1400px;
+}
+.main-hero {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -335,7 +334,7 @@ section {
 }
 
 .link-icon:hover,
-.link-icon:focus{
+.link-icon:focus {
   background-color: #404bbf;
 }
 .icon {
@@ -442,6 +441,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.32px;
   width: 264px;
+  margin-bottom: 16px;
 }
 .link-logo-footer {
   font-family: "Raleway", sans-serif;
@@ -453,7 +453,6 @@ section {
   text-decoration: none;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo {

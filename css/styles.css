@@ -25,6 +25,7 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  
 }
 
 section {
@@ -141,13 +142,8 @@ section {
 /* section-one*/
 .main {
   padding: 188px 0;
-}
-
-.card {
-  max-width: 1400px;
-}
-.main-hero {
-  display: flex;
+  height: 600px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
@@ -161,6 +157,7 @@ section {
   background-position: center;
   background-size: cover;
 }
+
 .main-text {
   color: #fff;
   text-align: center;

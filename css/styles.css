@@ -97,8 +97,10 @@ section {
 .link:active {
   color: #404bbf;
 }
-
-.akcent::after {
+.accent{
+  color: #404bbf;
+}
+.accent::after {
   content: "";
   position: absolute;
   background-color: #404bbf;
@@ -152,7 +154,7 @@ section {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

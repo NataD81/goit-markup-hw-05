@@ -370,7 +370,7 @@ section {
   position: relative;
   overflow: hidden;
 }
-.portfolio-img:hover .overlay-text {
+.portfolio-item-card:hover .overlay-text {
   transform: translateY(0);
 }
 .overlay-text {
